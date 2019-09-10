@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    color: #ffffff    
+}
+
+body {
+    background: url("https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(241, 236, 236, 0.5);
+    border-radius: 15px; */
+    text-align: center;
+}
+
+.dog-form {
+    display: flex;   
+    justify-content: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+}
+
+input {
+    color: #000000;
+    text-align: center;
+    margin: 15px auto;
+}
+
+button {
+    color: #000000;
+    margin: 0 auto;
+}
+
+.dog-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #ad0707;
+    font-weight: bold;      
+}
+
+img {
+    max-width: 100%;
+}
+

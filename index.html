@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Dogs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dog Breed representation</h1>
+        <h2>Input the breed of dog you want to see and click the fetch button.</h2>        
+    </header>
+    <section class="form-container">
+        <form class="dog-form" action="#">
+            <Fieldset>
+                <label for="dogBreed" class="label-dogBreed">What breed of dog would you like to see?</label>
+                <input id="dogBreed" type="text" class="input-dogBreed" value="Boxer" required>
+                <button type="submit" class="submit-button">Fetch the dogs</button>
+            </Fieldset>
+        </form>
+    </section>
+    <section class="dog-display">
+    </section>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
